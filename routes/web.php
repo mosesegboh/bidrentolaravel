@@ -23,3 +23,4 @@ Route::resource('/posts', 'PostController');
 
 Route::get('/search', 'PostController@search');
 
+Route::delete('comments/{id}/destroy', ['uses' => 'CommentController@destroy', 'as' => 'comments.destroy'] );

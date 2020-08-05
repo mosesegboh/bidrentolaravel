@@ -34,6 +34,14 @@
             @{{comment.body}}
         </p>
       <span style="color: #aaa;">on @{{comment.created_at}}</span>
+      
+        <button onclick="event.preventDefault();
+        document.getElementById('delete-comment-form').submit();" class="btn btn-lg btn-danger"><i class="fa fa-trash"></i></button>
+        <form id="delete-comment-form" method="post" action="{{ route('comments.destroy', $post->id) }}">
+          {{ csrf_field() }}
+          {{ method_field('delete') }}
+        </form>
+
       </div>
     </div>
   </div>

@@ -24,4 +24,11 @@ class CommentController extends Controller
 
          return $comment->toJson();
      }
+
+
+     public function destroy($id)
+    {
+      Comment::destroy($id);
+      return redirect()->route('posts.index');
+    }
 }
