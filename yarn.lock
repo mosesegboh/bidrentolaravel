@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/node@^14.14.31":
+  version "14.18.34"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.34.tgz#cd2e6fa0dbfb08a62582a7b967558e73c32061ec"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -3434,6 +3438,10 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
+laravel-echo@^1.8.1:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/laravel-echo/-/laravel-echo-1.14.2.tgz#bf82c0dfbea97ae20dc3b41dae0ab9b9cc49d407"
+
 laravel-mix@^1.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-1.7.0.tgz#3a3e996a07eb50a97479d418421cc484fb3d8b4d"
@@ -4858,6 +4866,13 @@ punycode@^1.2.4, punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
+pusher-js@^7.0.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/pusher-js/-/pusher-js-7.5.0.tgz#941e4b150a8547fad12f00fb9f24a95abfabaff8"
+  dependencies:
+    "@types/node" "^14.14.31"
+    tweetnacl "^1.0.3"
+
 q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
@@ -4867,8 +4882,8 @@ qs@6.5.1:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
 qs@~6.3.0:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.3.tgz#645c23bd6def4d552f258f0aadfeea6fd57f5a86"
 
 qs@~6.4.0:
   version "6.4.0"
@@ -5941,6 +5956,10 @@ tunnel-agent@^0.6.0:
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+
+tweetnacl@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.3.tgz#ac0af71680458d8a6378d0d0d050ab1407d35596"
 
 type-is@~1.6.15:
   version "1.6.15"
